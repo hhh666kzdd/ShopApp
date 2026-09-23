@@ -1,0 +1,6 @@
+// 项目级构建文件
+// 说明：本机只安装了 Build Tools 34.0.0 且无法访问 dl.google.com，
+// AGP 8.7+ 强制要求 Build Tools 35，因此选用 AGP 8.6.1（要求 Gradle >= 8.7，JDK 17+）
+plugins {
+    id 'com.android.application' version '8.13.0' apply false
+}

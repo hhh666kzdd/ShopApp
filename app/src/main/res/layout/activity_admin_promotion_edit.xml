@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 后台限时特价活动新增 / 编辑页 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="活动商品 ID" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_product_id"
+                    style="@style/FormEditText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="请输入商品 ID"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/btn_query"
+                    style="@style/OutlineButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="查询" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_product_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="输入商品 ID 后点击「查询」确认商品"
+                android:textColor="@color/text_hint"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="活动标题" />
+
+            <EditText
+                android:id="@+id/et_title"
+                style="@style/FormEditText"
+                android:hint="如：数码狂欢节"
+                android:inputType="text"
+                android:maxLength="50" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="活动说明" />
+
+            <EditText
+                android:id="@+id/et_description"
+                style="@style/FormEditText"
+                android:hint="可选"
+                android:inputType="text"
+                android:maxLength="100" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="活动价（元，必须低于商品原价）" />
+
+            <EditText
+                android:id="@+id/et_promo_price"
+                style="@style/FormEditText"
+                android:hint="如 199.00"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="开始时间（yyyy-MM-dd HH:mm:ss）" />
+
+            <EditText
+                android:id="@+id/et_start_time"
+                style="@style/FormEditText"
+                android:hint="2026-01-01 00:00:00"
+                android:inputType="datetime" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="结束时间（yyyy-MM-dd HH:mm:ss）" />
+
+            <EditText
+                android:id="@+id/et_end_time"
+                style="@style/FormEditText"
+                android:hint="2026-01-31 23:59:59"
+                android:inputType="datetime" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="状态" />
+
+            <RadioGroup
+                android:id="@+id/rg_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_enabled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="启用"
+                    android:textColor="@color/text_primary" />
+
+                <RadioButton
+                    android:id="@+id/rb_disabled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:text="停用"
+                    android:textColor="@color/text_primary" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="28dp"
+                android:text="保 存" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

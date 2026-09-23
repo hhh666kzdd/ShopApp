@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 服务器（MySQL）连接设置弹框 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="8dp"
+    android:paddingRight="24dp">
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="MySQL 主机（模拟器访问本机用 10.0.2.2，真机用电脑局域网 IP）" />
+
+    <EditText
+        android:id="@+id/et_host"
+        style="@style/FormEditText"
+        android:hint="如 10.0.2.2"
+        android:inputType="textUri" />
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="端口" />
+
+    <EditText
+        android:id="@+id/et_port"
+        style="@style/FormEditText"
+        android:hint="3306"
+        android:inputType="number" />
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="数据库用户名" />
+
+    <EditText
+        android:id="@+id/et_db_user"
+        style="@style/FormEditText"
+        android:hint="shop"
+        android:inputType="text" />
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="数据库密码" />
+
+    <EditText
+        android:id="@+id/et_db_password"
+        style="@style/FormEditText"
+        android:hint="123456"
+        android:inputType="textPassword" />
+</LinearLayout>

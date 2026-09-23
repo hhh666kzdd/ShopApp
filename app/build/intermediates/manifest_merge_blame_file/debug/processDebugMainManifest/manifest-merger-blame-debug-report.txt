@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shopapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- JDBC 直连 MySQL 需要网络权限 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:5:5-67
+12-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:6:5-79
+13-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\cbe891be2674e35c2228d1c31dc43d92\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.shopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\cbe891be2674e35c2228d1c31dc43d92\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\cbe891be2674e35c2228d1c31dc43d92\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.shopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\cbe891be2674e35c2228d1c31dc43d92\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\cbe891be2674e35c2228d1c31dc43d92\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:8:5-62:19
+22        android:name="com.example.shopapp.ShopApplication"
+22-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:9:9-40
+23        android:allowBackup="false"
+23-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:10:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\cbe891be2674e35c2228d1c31dc43d92\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@drawable/ic_launcher"
+27-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:11:9-45
+28        android:label="@string/app_name"
+28-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:12:9-41
+29        android:supportsRtl="true"
+29-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.ShopApp"
+31-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:14:9-45
+32        android:usesCleartextTraffic="true" >
+32-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:15:9-44
+33
+34        <!-- 登录页：应用入口 -->
+35        <activity
+35-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:18:9-26:20
+36            android:name="com.example.shopapp.ui.user.LoginActivity"
+36-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:19:13-50
+37            android:exported="true"
+37-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:20:13-36
+38            android:windowSoftInputMode="adjustResize" >
+38-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:21:13-55
+39            <intent-filter>
+39-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:22:13-25:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:23:17-69
+40-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:23:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:24:17-77
+42-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:24:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:27:9-130
+46            android:name="com.example.shopapp.ui.user.RegisterActivity"
+46-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:27:19-59
+47            android:exported="false"
+47-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:27:60-84
+48            android:windowSoftInputMode="adjustResize" />
+48-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:27:85-127
+49        <activity
+49-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:28:9-90
+50            android:name="com.example.shopapp.ui.user.ProfileEditActivity"
+50-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:28:19-62
+51            android:exported="false" />
+51-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:28:63-87
+52        <activity
+52-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:29:9-93
+53            android:name="com.example.shopapp.ui.user.ChangePasswordActivity"
+53-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:29:19-65
+54            android:exported="false" />
+54-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:29:66-90
+55
+56        <!-- 商城主界面（首页 / 分类 / 购物车 / 我的） -->
+57        <activity
+57-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:32:9-115
+58            android:name="com.example.shopapp.ui.main.MainActivity"
+58-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:32:19-55
+59            android:exported="false"
+59-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:32:56-80
+60            android:launchMode="singleTask" />
+60-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:32:81-112
+61
+62        <!-- 商品 -->
+63        <activity
+63-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:35:9-133
+64            android:name="com.example.shopapp.ui.product.ProductListActivity"
+64-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:35:19-65
+65            android:exported="false"
+65-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:35:66-90
+66            android:windowSoftInputMode="adjustPan" />
+66-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:35:91-130
+67        <activity
+67-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:36:9-95
+68            android:name="com.example.shopapp.ui.product.ProductDetailActivity"
+68-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:36:19-67
+69            android:exported="false" />
+69-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:36:68-92
+70
+71        <!-- 收货地址 -->
+72        <activity
+72-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:39:9-93
+73            android:name="com.example.shopapp.ui.address.AddressListActivity"
+73-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:39:19-65
+74            android:exported="false" />
+74-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:39:66-90
+75        <activity
+75-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:40:9-136
+76            android:name="com.example.shopapp.ui.address.AddressEditActivity"
+76-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:40:19-65
+77            android:exported="false"
+77-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:40:66-90
+78            android:windowSoftInputMode="adjustResize" />
+78-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:40:91-133
+79
+80        <!-- 优惠券 -->
+81        <activity
+81-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:43:9-93
+82            android:name="com.example.shopapp.ui.coupon.CouponCenterActivity"
+82-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:43:19-65
+83            android:exported="false" />
+83-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:43:66-90
+84        <activity
+84-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:44:9-89
+85            android:name="com.example.shopapp.ui.coupon.MyCouponActivity"
+85-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:44:19-61
+86            android:exported="false" />
+86-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:44:62-86
+87
+88        <!-- 订单 -->
+89        <activity
+89-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:47:9-135
+90            android:name="com.example.shopapp.ui.order.OrderConfirmActivity"
+90-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:47:19-64
+91            android:exported="false"
+91-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:47:65-89
+92            android:windowSoftInputMode="adjustResize" />
+92-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:47:90-132
+93        <activity
+93-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:48:9-89
+94            android:name="com.example.shopapp.ui.order.OrderListActivity"
+94-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:48:19-61
+95            android:exported="false" />
+95-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:48:62-86
+96        <activity
+96-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:49:9-91
+97            android:name="com.example.shopapp.ui.order.OrderDetailActivity"
+97-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:49:19-63
+98            android:exported="false" />
+98-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:49:64-88
+99
+100        <!-- 后台管理（管理员） -->
+101        <activity
+101-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:52:9-89
+102            android:name="com.example.shopapp.ui.admin.AdminMainActivity"
+102-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:52:19-61
+103            android:exported="false" />
+103-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:52:62-86
+104        <activity
+104-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:53:9-96
+105            android:name="com.example.shopapp.ui.admin.AdminProductListActivity"
+105-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:53:19-68
+106            android:exported="false" />
+106-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:53:69-93
+107        <activity
+107-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:54:9-139
+108            android:name="com.example.shopapp.ui.admin.AdminProductEditActivity"
+108-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:54:19-68
+109            android:exported="false"
+109-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:54:69-93
+110            android:windowSoftInputMode="adjustResize" />
+110-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:54:94-136
+111        <activity
+111-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:55:9-93
+112            android:name="com.example.shopapp.ui.admin.AdminCategoryActivity"
+112-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:55:19-65
+113            android:exported="false" />
+113-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:55:66-90
+114        <activity
+114-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:56:9-95
+115            android:name="com.example.shopapp.ui.admin.AdminCouponListActivity"
+115-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:56:19-67
+116            android:exported="false" />
+116-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:56:68-92
+117        <activity
+117-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:57:9-138
+118            android:name="com.example.shopapp.ui.admin.AdminCouponEditActivity"
+118-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:57:19-67
+119            android:exported="false"
+119-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:57:68-92
+120            android:windowSoftInputMode="adjustResize" />
+120-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:57:93-135
+121        <activity
+121-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:58:9-98
+122            android:name="com.example.shopapp.ui.admin.AdminPromotionListActivity"
+122-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:58:19-70
+123            android:exported="false" />
+123-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:58:71-95
+124        <activity
+124-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:59:9-141
+125            android:name="com.example.shopapp.ui.admin.AdminPromotionEditActivity"
+125-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:59:19-70
+126            android:exported="false"
+126-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:59:71-95
+127            android:windowSoftInputMode="adjustResize" />
+127-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:59:96-138
+128        <activity
+128-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:60:9-94
+129            android:name="com.example.shopapp.ui.admin.AdminOrderListActivity"
+129-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:60:19-66
+130            android:exported="false" />
+130-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:60:67-91
+131        <activity
+131-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:61:9-93
+132            android:name="com.example.shopapp.ui.admin.AdminUserListActivity"
+132-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:61:19-65
+133            android:exported="false" />
+133-->D:\az\ShopApp\app\src\main\AndroidManifest.xml:61:66-90
+134
+135        <provider
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+137            android:authorities="com.example.shopapp.androidx-startup"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+138            android:exported="false" >
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+139            <meta-data
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+141                android:value="androidx.startup" />
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\27938\.gradle\caches\9.3.0\transforms\64ba4a12b6182c686d2fc094164d65f6\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\27938\.gradle\caches\9.3.0\transforms\75dad94b0d2f351bf7e4bfe49a6dc552\workspace\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+143                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\27938\.gradle\caches\9.3.0\transforms\75dad94b0d2f351bf7e4bfe49a6dc552\workspace\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+144                android:value="androidx.startup" />
+144-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\27938\.gradle\caches\9.3.0\transforms\75dad94b0d2f351bf7e4bfe49a6dc552\workspace\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+145        </provider>
+146    </application>
+147
+148</manifest>

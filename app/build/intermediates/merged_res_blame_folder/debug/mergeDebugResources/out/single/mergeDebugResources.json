@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "com.example.shopapp-debug-31:/layout_activity_order_confirm.xml.flat",
+        "source": "com.example.shopapp-main-33:/layout/activity_order_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_stepper.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_stepper.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_tag_promo.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_tag_promo.xml"
+    },
+    {
+        "merged": "com.example.shopapp-debug-31:/layout_activity_admin_user_list.xml.flat",
+        "source": "com.example.shopapp-main-33:/layout/activity_admin_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\menu_menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\menu\\menu_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_promotion.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_promotion.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_promotion_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_promotion_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_admin.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_coupon_edit.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_coupon_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_category.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_promotion_edit.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_promotion_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_product_detail.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_coupon_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_coupon_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_mine.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_mine.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_layout_toolbar.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\layout_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_stat_card.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_stat_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_coupon.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_address_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_address_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_mine_entry.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_mine_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_coupon.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_coupon_center.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_coupon_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_order_detail.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_input.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_fragment_category.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\fragment_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_address.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_product_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_category.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_order_confirm.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_order_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_search.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_order_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_coupon.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_product_edit.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_product_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_main.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_admin_order.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_admin_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_remove.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_remove.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_product_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_bg_tag_gray.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\bg_tag_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_admin_coupon.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_admin_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_layout_empty.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\layout_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_fragment_mine.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_admin_product.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_admin_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_order.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_order.xml"
+    },
+    {
+        "merged": "com.example.shopapp-debug-31:/layout_item_admin_user.xml.flat",
+        "source": "com.example.shopapp-main-33:/layout/item_admin_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_admin_promotion.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_admin_promotion.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\color_selector_tab_text.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\color\\selector_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_selector_tab_bg.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\selector_tab_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_avatar_default.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_avatar_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_address_edit.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_address_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_dialog_server_config.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\dialog_server_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_admin_order_list.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_admin_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_dialog_admin_category.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\dialog_admin_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_profile_edit.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_profile_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_activity_my_coupon.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\activity_my_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_flash.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_flash.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_order_product.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_order_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_placeholder.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_dialog_loading.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-debug-31:\\layout_item_admin_category.xml.flat",
+        "source": "C:\\Users\\27938\\.gradle\\daemon\\9.3.0\\com.example.shopapp-main-33:\\layout\\item_admin_category.xml"
+    }
+]

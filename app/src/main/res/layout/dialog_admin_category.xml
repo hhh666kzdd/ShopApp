@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新增 / 编辑分类弹框 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="8dp"
+    android:paddingRight="24dp">
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="分类名称" />
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/FormEditText"
+        android:hint="请输入分类名称"
+        android:inputType="text"
+        android:maxLength="50" />
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="图标 URL" />
+
+    <EditText
+        android:id="@+id/et_icon"
+        style="@style/FormEditText"
+        android:hint="http://…（选填）"
+        android:inputType="textUri" />
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="排序值（越小越靠前）" />
+
+    <EditText
+        android:id="@+id/et_sort"
+        style="@style/FormEditText"
+        android:hint="0"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_status_label"
+        style="@style/FormLabel"
+        android:text="状态" />
+
+    <RadioGroup
+        android:id="@+id/rg_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_enabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="启用"
+            android:textColor="@color/text_primary" />
+
+        <RadioButton
+            android:id="@+id/rb_disabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:text="停用"
+            android:textColor="@color/text_primary" />
+    </RadioGroup>
+</LinearLayout>

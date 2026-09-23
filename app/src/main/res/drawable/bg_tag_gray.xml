@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 灰色标签背景（已下架、已过期等） -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/gray_disabled" />
+    <corners android:radius="3dp" />
+</shape>

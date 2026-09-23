@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 后台订单列表页：订单号搜索 + 状态筛选 + 订单列表 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_search"
+            android:hint="按订单号搜索"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:singleLine="true"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="4dp"
+            android:text="搜索"
+            android:textColor="@color/primary"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 状态筛选 -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/rg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_all"
+                style="@style/TabRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:checked="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="全部" />
+
+            <RadioButton
+                android:id="@+id/rb_unpaid"
+                style="@style/TabRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="待付款" />
+
+            <RadioButton
+                android:id="@+id/rb_paid"
+                style="@style/TabRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="待发货" />
+
+            <RadioButton
+                android:id="@+id/rb_shipped"
+                style="@style/TabRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="待收货" />
+
+            <RadioButton
+                android:id="@+id/rb_finished"
+                style="@style/TabRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="已完成" />
+
+            <RadioButton
+                android:id="@+id/rb_canceled"
+                style="@style/TabRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="已取消" />
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="8dp" />
+
+        <include layout="@layout/layout_empty" />
+    </FrameLayout>
+</LinearLayout>

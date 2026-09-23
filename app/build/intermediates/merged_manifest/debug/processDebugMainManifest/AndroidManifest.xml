@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <!-- JDBC 直连 MySQL 需要网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.example.shopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.shopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.example.shopapp.ShopApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.ShopApp"
+        android:usesCleartextTraffic="true" >
+
+        <!-- 登录页：应用入口 -->
+        <activity
+            android:name="com.example.shopapp.ui.user.LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.shopapp.ui.user.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.shopapp.ui.user.ProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.user.ChangePasswordActivity"
+            android:exported="false" />
+
+        <!-- 商城主界面（首页 / 分类 / 购物车 / 我的） -->
+        <activity
+            android:name="com.example.shopapp.ui.main.MainActivity"
+            android:exported="false"
+            android:launchMode="singleTask" />
+
+        <!-- 商品 -->
+        <activity
+            android:name="com.example.shopapp.ui.product.ProductListActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.shopapp.ui.product.ProductDetailActivity"
+            android:exported="false" />
+
+        <!-- 收货地址 -->
+        <activity
+            android:name="com.example.shopapp.ui.address.AddressListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.address.AddressEditActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 优惠券 -->
+        <activity
+            android:name="com.example.shopapp.ui.coupon.CouponCenterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.coupon.MyCouponActivity"
+            android:exported="false" />
+
+        <!-- 订单 -->
+        <activity
+            android:name="com.example.shopapp.ui.order.OrderConfirmActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.shopapp.ui.order.OrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.order.OrderDetailActivity"
+            android:exported="false" />
+
+        <!-- 后台管理（管理员） -->
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminProductEditActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminCouponListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminCouponEditActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminPromotionListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminPromotionEditActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminOrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shopapp.ui.admin.AdminUserListActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.shopapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

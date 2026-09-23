@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的页面功能入口行：图标 + 标题 + 右箭头 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="12dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="图标"
+        android:src="@drawable/ic_settings" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="进入"
+        android:src="@drawable/ic_arrow_right" />
+</LinearLayout>

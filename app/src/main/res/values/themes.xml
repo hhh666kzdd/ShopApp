@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用主题：使用 Material 组件的浅色无 ActionBar 主题，页面内自行放置 Toolbar -->
+    <style name="Theme.ShopApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <!-- 主按钮：橙色圆角实心 -->
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">22dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- 描边按钮 -->
+    <style name="OutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 列表项中的小按钮 -->
+    <style name="SmallButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+    </style>
+
+    <!-- 列表项中的小描边按钮 -->
+    <style name="SmallOutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/text_hint</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+    </style>
+
+    <!-- 表单输入框 -->
+    <style name="FormEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- 表单标签 -->
+    <style name="FormLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <!-- 顶部分段切换用的 RadioButton -->
+    <style name="TabRadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/selector_tab_text</item>
+        <item name="android:background">@drawable/selector_tab_bg</item>
+    </style>
+</resources>

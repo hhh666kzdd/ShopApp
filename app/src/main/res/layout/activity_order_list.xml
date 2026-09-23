@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的订单列表：状态切换 + 订单列表 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <!-- 订单状态筛选（接口文档 8.1） -->
+    <RadioGroup
+        android:id="@+id/rg_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_all"
+            style="@style/TabRadioButton"
+            android:checked="true"
+            android:text="全部" />
+
+        <RadioButton
+            android:id="@+id/rb_unpaid"
+            style="@style/TabRadioButton"
+            android:text="待付款" />
+
+        <RadioButton
+            android:id="@+id/rb_paid"
+            style="@style/TabRadioButton"
+            android:text="待发货" />
+
+        <RadioButton
+            android:id="@+id/rb_shipped"
+            style="@style/TabRadioButton"
+            android:text="待收货" />
+
+        <RadioButton
+            android:id="@+id/rb_finished"
+            style="@style/TabRadioButton"
+            android:text="已完成" />
+
+        <RadioButton
+            android:id="@+id/rb_canceled"
+            style="@style/TabRadioButton"
+            android:text="已取消" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="8dp" />
+
+        <include layout="@layout/layout_empty" />
+    </FrameLayout>
+</LinearLayout>

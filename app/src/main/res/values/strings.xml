@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">购物商城</string>
+    <string name="loading">加载中…</string>
+    <string name="empty_data">暂无数据</string>
+</resources>
